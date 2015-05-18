@@ -4,7 +4,7 @@ MAIN = $(basename $(wildcard *Main.cpp))
 TEST = $(basename $(wildcard *Test.cpp))
 OBJECTS = $(addsuffix .o, $(filter-out %Main %Test, $(basename $(wildcard *.cpp))))
 HEADERS = $(wildcard *.h)
-LIBS = -lncurses
+LIBS = -lncurses sfml-app -lsfml-graphics -lsfml-window -lsfml-system
 
 .PRECIOUS: %.o
 
