@@ -1,8 +1,8 @@
 // Object.h
 // Author: Michael Kotzjan
 
-#ifndef SFML-GAME_OBJECT_H_
-#define SFML-GAME_OBJECT_H_
+#ifndef OBJECT_H_
+#define OBJECT_H_
 
 #include <stdlib.h>
 
@@ -14,4 +14,4 @@ class Object
     size_t y;
 };
 
-#endif // SFML-GAME_OBJECT_H_
+#endif // OBJECT_H_
