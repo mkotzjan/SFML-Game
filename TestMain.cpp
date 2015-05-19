@@ -6,5 +6,5 @@
 int main()
 {
   std::cout << "Success" << std::endl;
-  retun 0;
+  return 0;
 }
