@@ -5,6 +5,7 @@
 #include "./Object.h"
 
 int main()
-{#include "./Object.h"  std::cout << "Success" << std::endl;
+{
+  std::cout << "Success" << std::endl;
   return 0;
 }
