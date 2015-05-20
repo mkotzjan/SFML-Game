@@ -1,8 +1,11 @@
 # SFML-Game
 ## Description
-A Game, using C++ and SFML.
-I have actualy no big ideas for this game.
+
+A Game, using C++ and SFML. I actually don't have any big ideas for this game.
+
+
 ## Build instructions
+
 You can build this project by using the *cmake* command.
 
 First create a new folder besides the cloned repository:
