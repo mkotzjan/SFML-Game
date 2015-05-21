@@ -25,3 +25,7 @@ To run the project type:
 ```
 ./Main
 ```
+
+## Licensing
+
+Please see the file called LICENSE in the doc folder.
