@@ -12,6 +12,9 @@ class Object
   public:
     size_t x;
     size_t y;
+    
+    // Constructor
+    Object();
 };
 
 #endif // OBJECT_H_
