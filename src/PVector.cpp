@@ -1,7 +1,7 @@
 // PVector.cpp
 // Author: Michael Kotzjan
 
-#include "../include/PVector.h"
+#include "PVector.h"
 
 // ____________________________________________________________________________
 PVector::PVector(double xSet, double ySet)
