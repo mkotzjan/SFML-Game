@@ -2,7 +2,7 @@
 // ChaosBelcebub, 2015
 
 #include <iostream>
-#include "./Object.h"
+#include "../include/Object.h"
 
 int main()
 {

@@ -1,7 +1,7 @@
 // Object.cpp
 // Author: Michael Kotzjan
 
-#include "./Object.h"
+#include "../include/Object.h"
 
 // _____________________________________________________________________________
 Object::Object()
