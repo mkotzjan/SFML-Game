@@ -27,6 +27,9 @@
 *.out
 *.app
 
+# Ignore swap files
+*.swp
+
 # Ignore the build and lib dirs
 build/*
 !build/README
