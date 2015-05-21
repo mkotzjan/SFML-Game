@@ -5,13 +5,13 @@
 #define OBJECT_H_
 
 #include <stdlib.h>
+#include "./PVector.h"
 
 // An Object
 class Object
 {
   public:
-    size_t x;
-    size_t y;
+    PVector position;
     
     // Constructor
     Object();
