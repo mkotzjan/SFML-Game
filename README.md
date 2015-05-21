@@ -8,24 +8,23 @@ A Game, using C++ and SFML. I actually don't have any big ideas for this game.
 
 You can build this project by using the *cmake* command.
 
-First create a new folder besides the cloned repository:
+First change the directory to the build folder:
 ```
-mkdir SFML-Game_Build
+cd build
 ```
-Change the directory to the created folder and run *cmake* in the original folder:
+Now run *cmake* on the /src folder:
 ```
-cd SFML-Game_Build
-cmake ../SFML-Game_Build
+cmake ../src
 ```
 *cmake* creates a Makefile which we will run now:
 ```
 make
 ```
-To run the project type:
+To run the project, please type:
 ```
 ./Main
 ```
 
 ## Licensing
 
-Please see the file called LICENSE in the doc folder.
+Please see the file called LICENSE in the /doc folder.
