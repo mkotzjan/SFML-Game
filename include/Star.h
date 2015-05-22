@@ -1,20 +1,19 @@
-// Object.h
+// Star.h
 // Author: Michael Kotzjan
 
-#ifndef OBJECT_H_
-#define OBJECT_H_
+#ifndef STAR_H_
+#define STAR_H_
 
 #include <stdlib.h>
-#include "./PVector.h"
+#include "./Object.h"
 
-// An Object
-class Object
+// A Star
+class Star : Object
 {
   public:
-    PVector position;
-    
+    size_t size;
     // Constructor
-    Object();
+    Star();
 };
 
-#endif // OBJECT_H_
+#endif // STAR_H_
