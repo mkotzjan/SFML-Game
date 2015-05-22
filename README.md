@@ -3,6 +3,12 @@
 
 A Game, using C++ and SFML. I actually don't have any big ideas for this game.
 
+## Requirements
+
+You need the following tools to build this project:
+* CMake
+* Make 
+* SFML (For Debian: `sudo apt-get install libsfml-dev`)
 
 ## Build instructions
 
