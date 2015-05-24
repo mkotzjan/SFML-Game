@@ -1,18 +1,17 @@
 // Object.h
-// Author: Michael Kotzjan
+// Author: Michael Kotzjan, Christian Wansart
 
 #ifndef OBJECT_H_
 #define OBJECT_H_
 
-#include <stdlib.h>
-#include "./PVector.h"
+#include <SFML/System/Vector2.hpp>
 
 // An Object
 class Object
 {
   public:
-    PVector position;
-    
+    sf::Vector2f position;
+
     // Constructor
     Object();
 };
