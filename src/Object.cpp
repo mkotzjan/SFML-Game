@@ -4,7 +4,6 @@
 #include "Object.h"
 
 // _____________________________________________________________________________
-Object::Object()
+Object::Object() : position(sf::Vector2f(100.0, 100.0))
 {
-  position = new PVector(100.0, 100.0);
 }
