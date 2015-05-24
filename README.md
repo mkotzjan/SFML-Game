@@ -1,7 +1,9 @@
 # SFML-Game
 ## Description
 
-A Game, using C++ and SFML. I actually don't have any big ideas for this game.
+A Game, using C++ and SFML.
+
+I've planed some sort of space adventure game with gravity.
 
 ## Requirements
 
@@ -14,11 +16,11 @@ You need the following tools to build this project:
 
 You can build this project by using the *cmake* command.
 
-First change the directory to the build folder:
+First change the directory to the *build* folder:
 ```
 cd build
 ```
-Now run *cmake* on the /src folder:
+Now run *cmake* on the *src* folder:
 ```
 cmake ../src
 ```
@@ -33,4 +35,4 @@ To run the project, please type:
 
 ## Licensing
 
-Please see the file called LICENSE in the /doc folder.
+Please see the file called LICENSE in the *doc* folder.
