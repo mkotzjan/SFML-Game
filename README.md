@@ -22,15 +22,15 @@ cd build
 ```
 Now run *cmake* on the *src* folder:
 ```
-cmake ../src
+cmake ..
 ```
 *cmake* creates a Makefile which we will run now:
 ```
 make
 ```
-To run the project, please type:
+To run the project, type:
 ```
-./Main
+./SFMLGame
 ```
 
 ## Licensing

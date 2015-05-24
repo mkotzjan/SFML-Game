@@ -1,9 +1,8 @@
-cmake_minimum_required (VERSION 2.6)
-project (SFML-Game)
-
-include_directories(../include)
+include_directories(${SFML-Game_SOURCE_DIR}/include)
 
 set(EXECUTABLE_NAME "SFMLGame")
+# put the executable in the binary dir and not in a src subfolder
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR})
 add_executable(${EXECUTABLE_NAME} Main.cpp)
 
 # this works for Debian (Jessie) when libsfml-dev is installed
