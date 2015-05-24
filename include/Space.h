@@ -1,8 +1,8 @@
 // Space.h
 // Author: Michael Kotzjan
 
-#ifndef SFML-GAME_SPACE_H_
-#define SFML-GAME_SPACE_H_
+#ifndef SPACE_H_
+#define SPACE_H_
 
 class Space
 {

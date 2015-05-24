@@ -4,16 +4,15 @@
 #ifndef PLANET_H_
 #define PLANET_H_
 
-#include <stdlib.h>
-#include "./Object.h"
-#include "./PVector.h"
+#include "Object.h"
+#include <SFML/System/Vector2.hpp>
 
 // A Planet
 class Planet : Object
 {
   public:
     size_t size;
-    PVector velocity;
+    sf::Vector2f velocity;
     // Constructor
     Planet();
 };

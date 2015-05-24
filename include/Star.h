@@ -4,8 +4,7 @@
 #ifndef STAR_H_
 #define STAR_H_
 
-#include <stdlib.h>
-#include "./Object.h"
+#include "Object.h"
 
 // A Star
 class Star : Object
