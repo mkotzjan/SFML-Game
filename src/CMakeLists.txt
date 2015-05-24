@@ -6,6 +6,7 @@ include_directories(../include)
 set(EXECUTABLE_NAME "SFMLGame")
 add_executable(${EXECUTABLE_NAME} Main.cpp)
 
+# this works for Debian (Jessie) when libsfml-dev is installed
 set(CMAKE_MODULE_PATH "/usr/share/SFML/cmake/Modules/" ${CMAKE_MODULE_PATH})
 
 find_package(SFML 2 REQUIRED system window graphics)
