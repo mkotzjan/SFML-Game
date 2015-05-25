@@ -20,7 +20,7 @@ First change the directory to the *build* folder:
 ```
 cd build
 ```
-Now run *cmake* on the *src* folder:
+Now run *cmake* on the *main* folder:
 ```
 cmake ..
 ```
