@@ -3,8 +3,6 @@
 
 #include "Star.h"
 
-Star::Star()
+Star::Star() : size(mass * 2)
 {
-  // Set size to a fixed value
-  size = 80;
 }

@@ -11,7 +11,7 @@ class Object
 {
   public:
     sf::Vector2f position;
-
+    double mass;
     // Constructor
     Object();
 };

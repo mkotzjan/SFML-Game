@@ -9,21 +9,22 @@
 // The instance of a game
 class Game
 {
-  // The window
-  sf::RenderWindow window;
-  
-  // Handles player input
-  void processEvents();
-  // Updates the game
-  void update();
-  // Renders the game
-  void render();
-
   public:
     // Constructor
     Game();
     // Runs the game
     void run();
+
+  private:
+    // The window
+    sf::RenderWindow window;
+  
+    // Handles player input
+    void processEvents();
+    // Updates the game
+    void update();
+    // Renders the game
+    void render();
 };
 
 #endif // GAME_H_
