@@ -11,7 +11,7 @@
 class Planet : Object
 {
   public:
-    size_t size;
+    double size;
     sf::Vector2f velocity;
     // Constructor
     Planet();

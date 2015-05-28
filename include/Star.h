@@ -10,7 +10,7 @@
 class Star : Object
 {
   public:
-    size_t size;
+    double size;
     // Constructor
     Star();
 };
