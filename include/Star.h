@@ -13,6 +13,8 @@ class Star : Object
     double size;
     // Constructor
     Star();
+    // Draw the star
+    void draw();
 };
 
 #endif // STAR_H_

@@ -15,6 +15,8 @@ class Planet : Object
     sf::Vector2f velocity;
     // Constructor
     Planet();
+    // Draw the planet:
+    void draw();
 };
 
 #endif // PLANET_H_
