@@ -5,6 +5,7 @@
 #define GAME_H_
 
 #include <SFML/Graphics.hpp>
+#include "Star.h"
 
 // The instance of a game
 class Game
@@ -18,6 +19,9 @@ class Game
   private:
     // The window
     sf::RenderWindow window;
+
+    // First star
+    Star star;
   
     // Handles player input
     void processEvents();

@@ -4,8 +4,9 @@
 #ifndef PLANET_H_
 #define PLANET_H_
 
-#include "Object.h"
+#include <SFML/Graphics.hpp>
 #include <SFML/System/Vector2.hpp>
+#include "Object.h"
 
 // A Planet
 class Planet : Object
@@ -16,7 +17,7 @@ class Planet : Object
     // Constructor
     Planet();
     // Draw the planet:
-    void draw();
+    void draw(sf::RenderWindow& window);
 };
 
 #endif // PLANET_H_
