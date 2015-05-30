@@ -4,7 +4,7 @@
 #include "Game.h"
 
 // _____________________________________________________________________________
-Game::Game() : window(sf::VideoMode(640, 480), "SFML-Game"), star()
+Game::Game() : window(sf::VideoMode(640, 480), "SFML-Game"), star(), planet()
 {
 
 }
@@ -44,5 +44,6 @@ void Game::render()
 {
   window.clear();
   star.draw(window);
+  planet.draw(window);
   window.display();
 }

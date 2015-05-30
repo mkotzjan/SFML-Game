@@ -6,6 +6,7 @@
 
 #include <SFML/Graphics.hpp>
 #include "Star.h"
+#include "Planet.h"
 
 // The instance of a game
 class Game
@@ -22,6 +23,8 @@ class Game
 
     // First star
     Star star;
+    // First planet
+    Planet planet;
   
     // Handles player input
     void processEvents();
