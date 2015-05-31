@@ -4,7 +4,7 @@
 #include "Game.h"
 
 // _____________________________________________________________________________
-Game::Game() : window(sf::VideoMode(640, 480), "SFML-Game"), star(), planet()
+Game::Game() : window(sf::VideoMode(640, 480), "SFML-Game"), star(200.0f, 200.0f, 50), planet()
 {
 
 }
