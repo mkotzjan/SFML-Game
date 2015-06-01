@@ -4,11 +4,9 @@
 #include "Planet.h"
 
 // _____________________________________________________________________________
-Planet::Planet() : size(mass * 2)
+Planet::Planet(sf::Vector2f pos, double mass) : position(pos), size(mass * 2)
 {
-  // Set velocity to a fixed value
-  velocity.x = 1;
-  velocity.y = 1;
+
 }
 
 // _____________________________________________________________________________

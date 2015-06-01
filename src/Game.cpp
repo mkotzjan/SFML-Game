@@ -4,8 +4,11 @@
 #include "Game.h"
 
 // _____________________________________________________________________________
-Game::Game() : window(sf::VideoMode(640, 480), "SFML-Game"), star(200.0f, 200.0f, 50), planet()
+Game::Game() : window(sf::VideoMode(640, 480), "SFML-Game")
 {
+  star = new Star(200.0f, 200.0f, 50);
+  sf::Vector pos(50.0f, 50.0f);
+  planet = new Planet(pos, 5);
   star.addPlanet(planet);
 }
 
