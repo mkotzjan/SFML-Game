@@ -6,7 +6,7 @@
 // _____________________________________________________________________________
 Game::Game() : window(sf::VideoMode(640, 480), "SFML-Game"), star(200.0f, 200.0f, 50), planet()
 {
-
+  star.addPlanet(planet);
 }
 
 // _____________________________________________________________________________
@@ -44,6 +44,5 @@ void Game::render()
 {
   window.clear();
   star.draw(window);
-  planet.draw(window);
   window.display();
 }
