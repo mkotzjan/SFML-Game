@@ -19,6 +19,8 @@ class Star : public Object
 
     // Constructor
     Star();
+    // Set the mass;
+    void setMass(double m);
     // Draw the star
     void draw(sf::RenderWindow& window);
     // Add a planet to the star

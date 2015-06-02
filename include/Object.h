@@ -16,9 +16,11 @@ class Object
     // Constructor
     Object();
 
-    // Set
+    // Set position
     void setPos(sf::Vector2f pos);
-    void setMass(double m);
+    
+    // Set mass
+    virtual void setMass(double m);
 };
 
 #endif // OBJECT_H_
