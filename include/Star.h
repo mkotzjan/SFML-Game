@@ -18,7 +18,7 @@ class Star : Object
     std::vector<Planet> planetList;
 
     // Constructor
-    Star(float posX, float posY, double mass);
+    Star();
     // Draw the star
     void draw(sf::RenderWindow& window);
     // Add a planet to the star

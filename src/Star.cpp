@@ -4,11 +4,9 @@
 #include "Star.h"
 
 // ______________________________________________________________________________
-Star::Star(float posX, float posY, double mass)
+Star::Star()
 {
   size = mass * 2;
-  position.x = posX;
-  position.y = posY;
 }
 
 // ______________________________________________________________________________

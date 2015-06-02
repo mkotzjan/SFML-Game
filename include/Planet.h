@@ -15,7 +15,7 @@ class Planet : Object
     double size;
     sf::Vector2f velocity;
     // Constructor
-    Planet(sf::Vector2f pos, double mass);
+    Planet();
     // Draw the planet:
     void draw(sf::RenderWindow& window);
 };
