@@ -6,6 +6,10 @@
 // _____________________________________________________________________________
 Game::Game() : window(sf::VideoMode(640, 480), "SFML-Game"), star(), planet()
 {
+  planet.setPos(sf::Vector2f(50.0f, 50.0f));
+  planet.setMass(10.0);
+  star.setPos(sf::Vector2f(150.0f, 150.0f));
+  star.setMass(50.0);
   star.addPlanet(planet);
 }
 

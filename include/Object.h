@@ -9,11 +9,16 @@
 // An Object
 class Object
 {
-  public:
+  protected:
     sf::Vector2f position;
     double mass;
+  public:
     // Constructor
     Object();
+
+    // Set
+    void setPos(sf::Vector2f pos);
+    void setMass(double m);
 };
 
 #endif // OBJECT_H_

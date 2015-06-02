@@ -11,7 +11,7 @@
 #include "Planet.h"
 
 // A Star
-class Star : Object
+class Star : public Object
 {
   public:
     double size;

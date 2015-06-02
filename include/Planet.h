@@ -9,7 +9,7 @@
 #include "Object.h"
 
 // A Planet
-class Planet : Object
+class Planet : public Object
 {
   public:
     double size;
