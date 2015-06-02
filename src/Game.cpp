@@ -8,6 +8,7 @@ Game::Game() : window(sf::VideoMode(640, 480), "SFML-Game"), star(), planet()
 {
   planet.setPos(sf::Vector2f(50.0f, 50.0f));
   planet.setMass(10.0);
+  planet.setVelo(sf::Vector2f(0.5f, 0.5f));
   star.setPos(sf::Vector2f(150.0f, 150.0f));
   star.setMass(50.0);
   star.addPlanet(planet);
@@ -40,7 +41,7 @@ void Game::processEvents()
 // _____________________________________________________________________________
 void Game::update()
 {
-
+  star.update();
 }
 
 // _____________________________________________________________________________

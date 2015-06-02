@@ -21,6 +21,8 @@ class Star : public Object
     Star();
     // Set the mass;
     void setMass(double m);
+    // Update the star and the planets
+    void update();
     // Draw the star
     void draw(sf::RenderWindow& window);
     // Add a planet to the star

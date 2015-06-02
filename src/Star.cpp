@@ -16,6 +16,15 @@ void Star::setMass(double m)
 }
 
 // ______________________________________________________________________________
+void Star::update()
+{
+  for (Planet p: planetList)
+  {
+    p.update();
+  }
+}
+
+// ______________________________________________________________________________
 void Star::draw(sf::RenderWindow& window)
 {
   // Draw the star as yellow dot

@@ -14,11 +14,20 @@ class Planet : public Object
   public:
     double size;
     sf::Vector2f velocity;
+
     // Constructor
     Planet();
+
     // Set the mass
     void setMass(double m);
-    // Draw the planet:
+
+    // Set veloctity
+    void setVelo(sf::Vector2f velo);
+    
+    // Update the planet
+    void update();
+    
+    // Draw the planet
     void draw(sf::RenderWindow& window);
 };
 

@@ -4,7 +4,7 @@
 #include "Planet.h"
 
 // _____________________________________________________________________________
-Planet::Planet() : size(5)
+Planet::Planet() : size(5), velocity(sf::Vector2f(0.0f, 0.0f))
 {
 }
 
@@ -15,6 +15,17 @@ void Planet::setMass(double m)
   size = mass * 2;
 }
 
+// _____________________________________________________________________________
+void Planet::setVelo(sf::Vector2f velo)
+{
+  velocity = velo;
+}
+
+// _____________________________________________________________________________
+void Planet::update()
+{
+  position += velocity;
+}
 // _____________________________________________________________________________
 void Planet::draw(sf::RenderWindow& window)
 {
