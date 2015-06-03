@@ -1,6 +1,7 @@
 // Star.cpp
 // Author: Michael Kotzjan
 
+#include <iostream>
 #include "Star.h"
 
 // ______________________________________________________________________________
@@ -28,6 +29,7 @@ void Star::setMass(double m)
 // ______________________________________________________________________________
 void Star::update()
 {
+  std::cout << "update()" << std::endl;
   for (Planet p: planetList)
   {
     p.update();

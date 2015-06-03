@@ -1,6 +1,7 @@
 // Planet.cpp
 // Author: Michael Kotzjan
 
+#include <iostream>
 #include "Planet.h"
 
 // _____________________________________________________________________________
@@ -35,7 +36,9 @@ void Planet::setVelo(sf::Vector2f velo)
 void Planet::update()
 {
   position += velocity;
+  std::cout << "update2()" << std::endl;
   setPosition(position);
+  std::cout << position.x << ", " << position.y << std::endl;
 }
 // _____________________________________________________________________________
 void Planet::draw(sf::RenderWindow& window)
