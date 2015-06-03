@@ -17,7 +17,7 @@ class Object
     Object();
 
     // Set position
-    void setPos(sf::Vector2f pos);
+    virtual void setPos(sf::Vector2f pos);
     
     // Set mass
     virtual void setMass(double m);

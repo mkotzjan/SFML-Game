@@ -11,7 +11,7 @@
 #include "Planet.h"
 
 // A Star
-class Star : public Object
+class Star : public sf::CircleShape, public Object
 {
   public:
     double size;
@@ -19,12 +19,19 @@ class Star : public Object
 
     // Constructor
     Star();
+
+    // Set position
+    void setPos(sf::Vector2f pos);
+
     // Set the mass;
     void setMass(double m);
+
     // Update the star and the planets
     void update();
+
     // Draw the star
-    void draw(sf::RenderWindow& window);
+    void drawPlanet(sf::RenderWindow& window);
+    
     // Add a planet to the star
     void addPlanet(Planet p);
 };

@@ -48,6 +48,7 @@ void Game::update()
 void Game::render()
 {
   window.clear();
-  star.draw(window);
+  window.draw(star);
+  star.drawPlanet(window);
   window.display();
 }

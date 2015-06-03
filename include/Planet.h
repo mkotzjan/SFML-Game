@@ -9,7 +9,7 @@
 #include "Object.h"
 
 // A Planet
-class Planet : public Object
+class Planet : public sf::CircleShape, public Object
 {
   public:
     double size;
@@ -17,6 +17,9 @@ class Planet : public Object
 
     // Constructor
     Planet();
+
+    // Set position
+    void setPos(sf::Vector2f pos);
 
     // Set the mass
     void setMass(double m);

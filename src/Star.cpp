@@ -6,6 +6,15 @@
 // ______________________________________________________________________________
 Star::Star() : size(5)
 {
+  setFillColor(sf::Color::Yellow);
+  setRadius(size);
+}
+
+// ______________________________________________________________________________
+void Star::setPos(sf::Vector2f pos)
+{
+  position = pos;
+  setPosition(position);
 }
 
 // ______________________________________________________________________________
@@ -13,6 +22,7 @@ void Star::setMass(double m)
 {
   mass = m;
   size = mass * 2;
+  setRadius(size);
 }
 
 // ______________________________________________________________________________
@@ -25,18 +35,12 @@ void Star::update()
 }
 
 // ______________________________________________________________________________
-void Star::draw(sf::RenderWindow& window)
+void Star::drawPlanet(sf::RenderWindow& window)
 {
-  // Draw the star as yellow dot
-  sf::CircleShape star((float)size);
-  star.setPosition(position);
-  star.setFillColor(sf::Color::Yellow);
-  window.draw(star);
-
   // Draw the planets
   for (Planet p: planetList)
   {
-    p.draw(window);
+    window.draw(p);
   }
 }
 
