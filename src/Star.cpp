@@ -29,7 +29,7 @@ void Star::setMass(double m)
 // ______________________________________________________________________________
 void Star::update()
 {
-  std::cout << "update()" << std::endl;
+  std::cout << "star.update()" << std::endl;
   for (Planet p: planetList)
   {
     p.update();

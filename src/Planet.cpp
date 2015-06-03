@@ -34,11 +34,15 @@ void Planet::setVelo(sf::Vector2f velo)
 
 // _____________________________________________________________________________
 void Planet::update()
-{
-  position += velocity;
-  std::cout << "update2()" << std::endl;
-  setPosition(position);
+{  
+  std::cout << "planet.update()" << std::endl;
+  std::cout << "Vor der Berechnung:" << std::endl;
   std::cout << position.x << ", " << position.y << std::endl;
+  position += velocity;
+  std::cout << "Nach der Berechnung:" << std::endl;
+  std::cout << position.x << ", " << position.y << std::endl;
+  // Set Position of the shape
+  setPosition(position);
 }
 // _____________________________________________________________________________
 void Planet::draw(sf::RenderWindow& window)
